@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Web.Http;
 using ApiChallenge.Models;
 using MySql.Data.MySqlClient;
@@ -31,7 +32,7 @@ namespace RestJubic.Controllers
 
             while (fetch_query.Read())
             {
-                Licenses.Add(new Licenses((int)fetch_query["id"], fetch_query["name"].ToString(), fetch_query["expiresAt"].ToString(), fetch_query["queriedAt"].ToString(), null));
+                Licenses.Add(new Licenses((int)fetch_query["id"], fetch_query["name"].ToString(), fetch_query["expiresAt"].ToString(), DateTime.Now.ToString("MM/dd/yyyy hh:mm tt"), null));
             }
 
             return Licenses;
@@ -63,7 +64,7 @@ namespace RestJubic.Controllers
 
             while (fetch_query.Read())
             {
-                Licenses.Add(new Licenses((int)fetch_query["id"], fetch_query["name"].ToString(), fetch_query["expiresAt"].ToString(), fetch_query["queriedAt"].ToString(), null));
+                Licenses.Add(new Licenses((int)fetch_query["id"], fetch_query["name"].ToString(), fetch_query["expiresAt"].ToString(), DateTime.Now.ToString("MM/dd/yyyy hh:mm tt"), null));
             }
 
             return Licenses;
