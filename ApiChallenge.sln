@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiChallenge", "ApiChallenge\ApiChallenge.csproj", "{EFE26CF5-F2EE-4A9D-8FC9-D7C98E58810B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFE26CF5-F2EE-4A9D-8FC9-D7C98E58810B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE26CF5-F2EE-4A9D-8FC9-D7C98E58810B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE26CF5-F2EE-4A9D-8FC9-D7C98E58810B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE26CF5-F2EE-4A9D-8FC9-D7C98E58810B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B7A5A4C-D463-4200-8B5B-192FAC336229}
+	EndGlobalSection
+EndGlobal
